@@ -1,0 +1,17 @@
+# Normalise to LF in the repository; check out native on Windows.
+* text=auto
+
+*.py    text diff=python
+*.md    text
+*.toml  text
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.spec  text
+*.txt   text
+
+# Never touch these.
+*.png   binary
+*.ico   binary
+*.icns  binary
+*.gz    binary
+*.zip   binary

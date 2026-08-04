@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Build output
+build/
+dist/
+*.manifest
+assets/icon.ico
+assets/icon.icns
+assets/icon-512.png
+
+# Local settings written by the portable build
+config.json
+portable.txt
+
+# Scan output
+*.lst
+scan-results.*
+*-scan.html
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

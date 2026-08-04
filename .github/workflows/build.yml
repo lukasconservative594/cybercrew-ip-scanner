@@ -1,0 +1,117 @@
+name: Build portable binaries
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: ${{ matrix.label }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            label: Windows x64
+            artifact: CyberCrewIPScanner-windows-x64
+          - os: ubuntu-22.04
+            label: Linux x64
+            artifact: CyberCrewIPScanner-linux-x64
+          - os: macos-13
+            label: macOS Intel
+            artifact: CyberCrewIPScanner-macos-x64
+          - os: macos-14
+            label: macOS Apple Silicon
+            artifact: CyberCrewIPScanner-macos-arm64
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      # PyQt6 needs these to initialise even in offscreen mode, which the
+      # icon renderer does during the build.
+      - name: Install Qt runtime libraries (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libegl1 libgl1 libglib2.0-0 libdbus-1-3 \
+            libxkbcommon-x11-0 libxcb-cursor0 libxcb-icccm4 libxcb-image0 \
+            libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 \
+            libxcb-shape0 libxcb-xinerama0 libxcb-xfixes0
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller pillow
+
+      - name: Build
+        run: python build.py --clean
+
+      - name: Verify the binary runs
+        shell: bash
+        run: |
+          if [ "$RUNNER_OS" = "Windows" ]; then
+            BIN="dist/CyberCrewIPScanner.exe"
+          elif [ "$RUNNER_OS" = "macOS" ]; then
+            BIN="dist/CyberCrew IP Scanner.app/Contents/MacOS/CyberCrewIPScanner"
+          else
+            BIN="dist/CyberCrewIPScanner"
+          fi
+          "$BIN" --version
+          "$BIN" --list-fetchers
+          # A loopback scan proves the engine works end to end in the bundle.
+          "$BIN" 127.0.0.1 --all --ping-method tcp --fetchers ip,ping,ports -p 22,80 --no-colour
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}
+          path: dist/*.zip
+          if-no-files-found: error
+
+  release:
+    name: Publish release
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          merge-multiple: true
+
+      - name: List artefacts
+        run: ls -lh artifacts
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: artifacts/*.zip
+          generate_release_notes: true
+          body: |
+            ## CyberCrew IP Scanner ${{ github.ref_name }}
+
+            Portable builds - no installation required. Download, unzip, run.
+
+            | Platform | Download |
+            |---|---|
+            | Windows x64 | `CyberCrewIPScanner-windows-x64.zip` |
+            | Linux x64 | `CyberCrewIPScanner-linux-x64.zip` |
+            | macOS Intel | `CyberCrewIPScanner-macos-x64.zip` |
+            | macOS Apple Silicon | `CyberCrewIPScanner-macos-arm64.zip` |
+
+            On macOS the app is unsigned, so the first launch needs
+            **right-click → Open**. On Linux, `chmod +x CyberCrewIPScanner`.
+
+            Only scan networks you own or are authorised to test.

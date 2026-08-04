@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cybercrew-ip-scanner"
+version = "1.0.0"
+description = "Fast, portable IP and port scanner for vulnerability assessment and penetration testing"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "CyberCrew" }]
+keywords = [
+    "ip-scanner", "port-scanner", "network-scanner", "vapt",
+    "penetration-testing", "security", "netbios", "banner-grabbing",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: X11 Applications :: Qt",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Networking :: Monitoring",
+    "Topic :: Security",
+]
+dependencies = [
+    "PyQt6>=6.5",
+    "psutil>=5.9",
+]
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6.0", "pillow>=10.0"]
+
+[project.urls]
+Homepage = "https://github.com/cybercrewinc/cybercrew-ip-scanner"
+Issues = "https://github.com/cybercrewinc/cybercrew-ip-scanner/issues"
+
+[project.scripts]
+cybercrew-ip-scanner = "ipscanner.cli:main"
+
+[project.gui-scripts]
+cybercrew-ip-scanner-gui = "ipscanner.app:run"
+
+[tool.setuptools]
+packages = ["ipscanner", "ipscanner.core", "ipscanner.fetchers", "ipscanner.gui", "ipscanner.data"]
+
+[tool.setuptools.package-data]
+"ipscanner.data" = ["*.csv.gz"]

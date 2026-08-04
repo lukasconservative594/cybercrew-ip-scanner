@@ -1,0 +1,10 @@
+# Runtime dependencies for CyberCrew IP Scanner.
+# The scanning engine itself is pure standard library; these cover the GUI
+# and cross-platform interface enumeration.
+
+PyQt6>=6.5          # desktop interface
+psutil>=5.9         # local interface and netmask discovery
+
+# Build only (not needed to run from source):
+#   pyinstaller>=6.0
+#   pillow>=10.0     # multi-resolution .ico generation
