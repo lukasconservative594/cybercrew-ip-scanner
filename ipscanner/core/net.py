@@ -8,13 +8,12 @@ the scanner never hard-fails just because it is not running as root/admin.
 from __future__ import annotations
 
 import ipaddress
-import os
 import socket
 import struct
 import subprocess
 import sys
-from dataclasses import dataclass, field
-from typing import Iterable, Optional
+from dataclasses import dataclass
+from typing import Optional
 
 IS_WINDOWS = sys.platform.startswith("win")
 IS_MACOS = sys.platform == "darwin"

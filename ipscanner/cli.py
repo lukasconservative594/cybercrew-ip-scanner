@@ -11,15 +11,12 @@ import os
 import sys
 import threading
 import time
-from pathlib import Path
 from typing import Sequence
 
 from . import APP_NAME, __version__
 from .core import pingers
 from .core.config import Config
-from .core.ranges import (
-    FileFeeder, RandomFeeder, RangeError, RangeFeeder, format_ports, parse_ports,
-)
+from .core.ranges import FileFeeder, RandomFeeder, RangeError, RangeFeeder
 from .core.scanner import ScanStats, Scanner
 from .core.subject import HostState, ScanResult
 from .exporters import FORMATS, ExportError, export

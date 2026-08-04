@@ -5,7 +5,7 @@ from __future__ import annotations
 import enum
 import socket
 import threading
-from typing import Any, Optional
+from typing import Any
 
 from .ranges import IPAddress
 

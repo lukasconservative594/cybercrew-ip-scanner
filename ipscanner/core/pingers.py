@@ -11,7 +11,6 @@ than ICMP alone, which matters a lot on an internal VAPT sweep.
 from __future__ import annotations
 
 import errno
-import ipaddress
 import os
 import random
 import socket

@@ -10,7 +10,6 @@ from . import APP_ID, APP_NAME, __version__
 
 def run(argv: Sequence[str] | None = None) -> int:
     try:
-        from PyQt6.QtCore import Qt
         from PyQt6.QtWidgets import QApplication
     except ImportError:
         print(

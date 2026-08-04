@@ -30,7 +30,7 @@ def main() -> int:
 
     from ipscanner.gui.main_window import app_icon
 
-    app = QApplication([])  # noqa: F841 - a QGuiApplication must exist first
+    _app = QApplication([])  # a QGuiApplication must exist before QPixmap
     ASSETS.mkdir(parents=True, exist_ok=True)
     icon = app_icon()
 

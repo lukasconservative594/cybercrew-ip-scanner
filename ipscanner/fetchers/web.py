@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import http.client
 import re
-import socket
 import ssl
 from dataclasses import dataclass
 from datetime import datetime, timezone

@@ -7,30 +7,26 @@ that is not needed to start a scan lives in a menu.
 from __future__ import annotations
 
 import collections
-import threading
 from pathlib import Path
 from typing import Any
 
 from PyQt6.QtCore import QPoint, Qt, QTimer, QUrl
 from PyQt6.QtGui import (
-    QAction, QActionGroup, QColor, QDesktopServices, QFont, QGuiApplication,
+    QAction, QActionGroup, QColor, QDesktopServices, QGuiApplication,
     QIcon, QKeySequence, QPainter, QPixmap,
 )
 from PyQt6.QtWidgets import (
-    QAbstractItemView, QApplication, QComboBox, QFileDialog, QHeaderView,
+    QAbstractItemView, QApplication, QFileDialog, QHeaderView,
     QInputDialog, QLabel, QLineEdit, QMainWindow, QMenu, QMessageBox,
     QProgressBar, QPushButton, QSizePolicy, QStatusBar, QTableView, QToolBar,
     QWidget,
 )
 
-from .. import APP_NAME, APP_URL, __version__
+from .. import APP_NAME, APP_URL
 from .. import fetchers as fetchers_pkg
 from ..core import net, oui
 from ..core.config import Config
-from ..core.ranges import (
-    FileFeeder, RandomFeeder, RangeError, RangeFeeder, netmask_to_prefix,
-    parse_ip, parse_ports,
-)
+from ..core.ranges import FileFeeder, RangeError, RangeFeeder, parse_ip, parse_ports
 from ..core.scanner import ScanStats, Scanner
 from ..core.subject import HostState, ScanResult
 from ..exporters import FORMATS, ExportError, export
@@ -39,7 +35,7 @@ from .dialogs import (
     AboutDialog, FavoritesDialog, FetchersDialog, HostDetailsDialog,
     PreferencesDialog,
 )
-from .model import ResultsModel, ResultsProxy, state_icon
+from .model import ResultsModel, ResultsProxy
 
 _DISPLAY_STATES = {
     "all": HostState.UNKNOWN,

@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import socket
-from typing import Any, Optional
+from typing import Optional
 
 from ..core import pingers
 from ..core.subject import HostState, ScanningSubject
