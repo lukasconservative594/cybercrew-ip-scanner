@@ -24,7 +24,10 @@ jobs:
           - os: ubuntu-22.04
             label: Linux x64
             artifact: CyberCrewIPScanner-linux-x64
-          - os: macos-13
+          # macos-13 was retired by GitHub; macos-15-intel is the current
+          # x86_64 image. Apple Silicon builds will not run on Intel Macs, so
+          # this leg has to stay.
+          - os: macos-15-intel
             label: macOS Intel
             artifact: CyberCrewIPScanner-macos-x64
           - os: macos-14
